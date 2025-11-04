@@ -56,6 +56,121 @@ header {
   font-size: 25px;
   font-weight: 600;
 }
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  color: #1d1d1f;
+}
+
+.como-funciona {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.como-funciona h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.como-funciona p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f7f9fb;
+  border-radius: 10px;
+  padding: 30px;
+  width: 420px;
+  text-align: left;
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.doadores {
+  background-color: #f4fdf6;
+}
+
+.adquirentes {
+  background-color: #f4f7ff;
+}
+
+.etapas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.etapa {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.numero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+}
+
+.verde {
+  background-color: #00b84a;
+}
+
+.azul {
+  background-color: #3b82f6;
+}
+
+strong {
+  display: block;
+  font-weight: 600;
+  color: #111;
+}
+
+.etapa p {
+  margin: 2px 0 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 450px;
+  }
+}
 
 .metricas {
   display: flex;
